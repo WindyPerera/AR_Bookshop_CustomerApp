@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".UI.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#0585EA"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cus_email"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#5E5B5B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_msg" />
+
+    <EditText
+        android:id="@+id/cus_pasword"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="#5E5B5B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cus_email" />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="188dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="39dp"
+        android:background="#CAE3F8"
+        android:text="Sign In Here"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cus_pasword" />
+
+    <TextView
+        android:id="@+id/text_msg"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="29dp"
+        android:textColor="@color/electric_orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/create_new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="25dp"
+        android:text=" Click Here"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/signin_btn" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="25dp"
+        android:text="Don't Have An Account ?"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

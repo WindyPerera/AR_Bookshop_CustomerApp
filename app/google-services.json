@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "778421586618",
+    "project_id": "onlinebookshop-2d91e",
+    "storage_bucket": "onlinebookshop-2d91e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778421586618:android:de31bd966c6f941ede1083",
+        "android_client_info": {
+          "package_name": "com.lk.onlinebookshopcustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778421586618-ak9s633pnkl0rrf5vlivsc0idbs2i8dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD63E5tJZzm-pDCAfpWL-quy-4k7xfXMrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778421586618-ak9s633pnkl0rrf5vlivsc0idbs2i8dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778421586618:android:441a740e0232f334de1083",
+        "android_client_info": {
+          "package_name": "com.lk.onlinebookshopcustomer.UI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778421586618-qe252sc7qn53i0anean5d30r6qud9386.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lk.onlinebookshopcustomer.UI",
+            "certificate_hash": "99a1237d8674e4f45c339acb81d3cb026f695236"
+          }
+        },
+        {
+          "client_id": "778421586618-ak9s633pnkl0rrf5vlivsc0idbs2i8dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD63E5tJZzm-pDCAfpWL-quy-4k7xfXMrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778421586618-ak9s633pnkl0rrf5vlivsc0idbs2i8dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

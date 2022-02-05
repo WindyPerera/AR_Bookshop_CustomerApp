@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    <ViewFlipper-->
+<!--        android:id="@+id/view_flipper"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:inAnimation="@android:anim/fade_in"-->
+<!--        android:outAnimation="@android:anim/fade_out"-->
+<!--        tools:layout_editor_absoluteY="3dp">-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_gravity="center" />&ndash;&gt;-->
+
+<!--    </ViewFlipper>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

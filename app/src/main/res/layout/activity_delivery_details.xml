@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.DeliveryDetailsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/toolbar_layout"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ir.androidexception.datatable.DataTable
+        android:id="@+id/data_table"
+        android:layout_width="396dp"
+        android:layout_height="659dp"
+        android:layout_below="@+id/oldPrintBtn"
+        android:layout_marginTop="13dp"
+        app:corner_radius="8dp"
+        app:direction="ltr"
+        app:header_background_color="#0490FF"
+        app:header_gravity="center"
+        app:header_horizontal_padding="0dp"
+        app:header_text_color="#000"
+        app:header_text_size="6sp"
+        app:header_vertical_padding="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2"
+        app:persian_number="false"
+        app:row_background_color="#fff"
+        app:row_gravity="center"
+        app:row_text_color="#000"
+        app:row_text_size="5sp"
+        app:row_vertical_padding="14dp"
+        app:shadow="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
